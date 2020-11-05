@@ -1,0 +1,66 @@
+## Requirements
+
+The following requirements are needed by this module:
+
+- grafana (1.6.0)
+
+- time (0.6.0)
+
+## Providers
+
+The following providers are used by this module:
+
+- docker
+
+- grafana (1.6.0)
+
+- time (0.6.0)
+
+## Required Inputs
+
+The following input variables are required:
+
+### var2
+
+Description: var2 - interesting var
+
+Type: `string`
+
+### var3
+
+Description: var3 - variable difficult to comperhand
+
+Type: `string`
+
+## Optional Inputs
+
+The following input variables are optional (have default values):
+
+### var1
+
+Description: var1 is the variable used for testing purposes
+
+Type: `bool`
+
+Default: `true`
+
+### var4
+
+Description: just another bool variable
+
+Type: `bool`
+
+Default: `false`
+
+### var5
+
+Description: let's see how this variable will look like in terraform-docs
+
+Type: `bool`
+
+Default: `false`
+
+## Outputs
+
+No output.
+
