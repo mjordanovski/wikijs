@@ -1,0 +1,58 @@
+## Requirements
+
+No requirements.
+
+## Providers
+
+The following providers are used by this module:
+
+- docker
+
+## Required Inputs
+
+The following input variables are required:
+
+### var7
+
+Description: var7 - interesting var
+
+Type: `string`
+
+### var8
+
+Description: var8 - variable difficult to comperhand
+
+Type: `string`
+
+## Optional Inputs
+
+The following input variables are optional (have default values):
+
+### var10
+
+Description: let's see how this variable will look like in terraform-docs
+
+Type: `bool`
+
+Default: `false`
+
+### var6
+
+Description: var6 is the variable used for testing purposes
+
+Type: `bool`
+
+Default: `true`
+
+### var9
+
+Description: just another bool variable
+
+Type: `bool`
+
+Default: `false`
+
+## Outputs
+
+No output.
+
