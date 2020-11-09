@@ -1,0 +1,118 @@
+## Requirements
+
+The following requirements are needed by this module:
+
+- grafana (1.6.0)
+
+- time (0.6.0)
+
+## Providers
+
+The following providers are used by this module:
+
+- docker
+
+- grafana (1.6.0)
+
+- time (0.6.0)
+
+## Required Inputs
+
+No required input.
+
+## Optional Inputs
+
+The following input variables are optional (have default values):
+
+### grafana\_access\_mode
+
+Description: Access mode of the grafana data source
+
+Type: `string`
+
+Default: `"direct"`
+
+### grafana\_data\_source\_name
+
+Description: Type of the grafana data source
+
+Type: `string`
+
+Default: `"Prometheus"`
+
+### grafana\_data\_source\_type
+
+Description: Type of the grafana data source
+
+Type: `string`
+
+Default: `"prometheus"`
+
+### grafana\_external\_port
+
+Description: Number of the port from where grafana is accessible
+
+Type: `number`
+
+Default: `3000`
+
+### grafana\_image\_version
+
+Description: Version of the grafana image
+
+Type: `string`
+
+Default: `"latest"`
+
+### grafana\_name
+
+Description: Name of the grafana container
+
+Type: `string`
+
+Default: `"grafana-container"`
+
+### grafana\_password
+
+Description: Password for grafana
+
+Type: `string`
+
+Default: `"admin"`
+
+### grafana\_username
+
+Description: Username for grafana
+
+Type: `string`
+
+Default: `"admin"`
+
+### prometheus\_external\_port
+
+Description: Number of the port from where prometheus is accessible
+
+Type: `number`
+
+Default: `9090`
+
+### prometheus\_image\_version
+
+Description: Version of the prometheus image used.
+
+Type: `string`
+
+Default: `"latest"`
+
+### prometheus\_name
+
+Description: Name of the prometheus container.
+
+Type: `string`
+
+Default: `"prometheus-container"`
+
+## Outputs
+
+No output.
+
