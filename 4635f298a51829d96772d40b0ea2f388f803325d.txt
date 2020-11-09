@@ -1,0 +1,102 @@
+## Requirements
+
+No requirements.
+
+## Providers
+
+The following providers are used by this module:
+
+- docker
+
+## Required Inputs
+
+No required input.
+
+## Optional Inputs
+
+The following input variables are optional (have default values):
+
+### app1\_image
+
+Description: Location of the app1 image in gitlab container repo
+
+Type: `string`
+
+Default: `"registry.gitlab.com/cds-devops/python-app-no1:1.6"`
+
+### app1\_name
+
+Description: Name of the app1 docker container
+
+Type: `string`
+
+Default: `"app1-container"`
+
+### app2\_image
+
+Description: Location of the app2 image in gitlab container repo
+
+Type: `string`
+
+Default: `"registry.gitlab.com/cds-devops/python-app-no2:1.3"`
+
+### app2\_name
+
+Description: Name of the app2 docker container
+
+Type: `string`
+
+Default: `"app2-container"`
+
+### docker\_provider\_source
+
+Description: Name of the source of the docker provider
+
+Type: `string`
+
+Default: `"terraform-providers/docker"`
+
+### gitlab\_provider\_source
+
+Description: Name of the source of the gitlab provider
+
+Type: `string`
+
+Default: `"gitlabhq/gitlab"`
+
+### nginx\_external\_port
+
+Description: Number of nginx externat port
+
+Type: `number`
+
+Default: `8000`
+
+### nginx\_internal\_port
+
+Description: Number of nginx internal port
+
+Type: `number`
+
+Default: `80`
+
+### nginx\_latest\_version
+
+Description: Version of the latest nginx image used
+
+Type: `string`
+
+Default: `"latest"`
+
+### nginx\_name
+
+Description: Name of the nginx container
+
+Type: `string`
+
+Default: `"tutorial"`
+
+## Outputs
+
+No output.
+
